@@ -1,0 +1,11 @@
+GET http://localhost:8000/tracks HTTP/1.1
+
+###
+POST http://localhost:8000/tracks/ HTTP/1.1
+
+Content-Type: application/x-www-form-urlencoded
+
+playlist=Rock&title=Injufea&uri=/INXS-Kick/release/145236&master_id=68547
+
+###
+DELETE http://localhost:8000/tracks/1 HTTP/1.1

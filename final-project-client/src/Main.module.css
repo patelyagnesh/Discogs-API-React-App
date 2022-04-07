@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+#column {
+    float: left;
+    width: 48.5%;
+    margin: 50px 0px 0px 15px;
+    height: 100%;
+    border: 1px solid black;
+}
+
+#column h2 {
+    font-family: Raleway, 'Trebuchet MS', Helvetica, sans-serif;
+    background: linear-gradient(to right, Teal 0%, transparent 100%);
+    padding-left: 10px;
+    padding: 20px;
+    color: white;
+}
+
+#search-div {
+    padding-left: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    width: 95%;
+
+}
+
+/* table {
+    table-layout: auto;
+    margin: 20px;
+    height: 100%;
+    width: 95%;
+}
+
+td {
+    padding-left: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+} */
+
+button {
+    background-color: Teal;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+#btn-delete:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#btn-add:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#btn-search:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
